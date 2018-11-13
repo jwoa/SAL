@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700');
+
+html {
+    background-image: url('../images/bg.png');
+    background-size: cover;
+}
+
+body {
+    width: 70%;
+    -webkit-app-region: drag;
+    /* background-image: url('../images/bg.png');
+    background-size: cover; */
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+
+h1 {
+    text-align: center;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    margin-top: 10%;
+}
+
+p {
+    text-align: center;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 5%;
+}
+
+button {
+    -webkit-app-region: no-drag;
+}
+
+.start {
+    background-color: #BF0A30;
+    color: #fff;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    margin-top: 5%;
+}

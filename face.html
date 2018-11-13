@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>SAL</title>
+
+    <link rel="stylesheet" type="text/css" href="assets/css/face.css" />
+  </head>
+  <body>
+    <h1>Super America License Application</h1>
+
+    <div id="left">
+        <video></video>
+        <img src="" id="image"><br><br>
+        <div class="button">
+            <button id="btn" disabled>Snap Picture</button>
+            <input type="file" name="file" id="file" class="inputfile" />
+            <button id="detect" type=button onclick='getParam();display()'>Detect</button>
+        </div>
+    </div>
+
+    <div id="right">
+        <p id="right_text">
+            When you are ready, take the picture and then upload it. Once that is done
+            select detect to get your results.
+            <br>
+            <br>
+            After this has been done you will get your MCS score. MCS stands for
+            Model Citizen Score and based on this number you will be given certain
+            privelleges if you are accepted for the Super America License.
+        </p>
+        <table id="tableRes"></table>
+        <hr>
+        <p id="right_result">
+            You're MCS score is calculated and displayed above. As you move through the
+            application your score will change based on your responses to the questions
+            and you're overall behavior.
+            <br>
+            <br>
+            You will be able to request a change to any information that may be wrong. Gender
+            identification status may not be changed.
+        </p>
+    </div>
+
+    <div id="bottom">
+        <a href="anthem_intro.html">
+            <button>National Anthem</button>
+        </a>
+    </div>
+
+    <script src="scripts.js"></script>
+    <script>
+
+    </script>
+
+  </body>
+</html>
